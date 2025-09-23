@@ -13,3 +13,50 @@ gitignore = 버전관리할 때 무시할 파일 기록
 3. 작성되 소스 버전관리 
 (1) 로컬 저장소에 관리할 파일 추가= git add 관리할파일명
 (2) 추가된 파일을 저장하고 확인하기 : git commit -m"메세지"
+
+4.원격(remote)포지토리(github)
+
+1 원격리포지토리 추가 : git remote add origin github주소
+2 원격리포지토리 파일 추가 : git push origin(원격) main(로컬)
+
+개발도구
+-에디터(IDE) : 자바
+1 visual studio code : 인텔리j 와 유사 프리 다양한 extention을 통해서 다른 개발 시에도 많이 사용
+2 이클립스 : 프리 버전(주로 자바 개발시 사용)
+3 인텔리j : free 버전은 기능 제한됨 사용료 지불해야 전체 기능 사용 가능
+
+java
+ - 웹개발 필수 언어
+ - 대소문자 구분함
+   클래스명은 대문자로 시작 
+   메소드명은 소문자로 시작
+  - 자바는 클래스가 기본
+
+1. 변수: 메모리 내 저장공간
+  - 저장공간마다 담을 수 있는 값이 달라짐
+  - 타입 변수명 = 값;
+  - 타입 : int, float, doubel, char, boolean, byte, short, long
+  - 변수명 : 영어, 한글명 가능하나 영어를 사용함
+           양어소문자 사용(flag, curPos)혼합하여 사용할경우 두번째단어는 대문자로 시작
+  - int num = 10;
+  - 타입 : 정수형(int, long), 문자형(char), 실수형(float, double), 논리형(boolean)
+  - 정수형(int, long, byte, short)
+
+  2. 상수 :메모리 내 정잔공간 + 한 번 저장하면 다른 값을 변경 불가
+  - final 타입 상수명(대문자) = 값;
+  
+  기본
+   byte : 1byte 저장공간 / short :2byte / int : 4byte / long : 8byte
+   bit : 0 or 1
+   byte : 8bit ex)00000000 / 00000001 .....
+   유니코드 : 전세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 다룰 수 있도록 설계된 표준
+   a= 97 / A =65
+   가 = 44032
+   -실수형(float, double) : 소수점, 지수형태
+   float : 4byte / double(기본타입) : 8byte
+   -문자형(char) : 홑따옴표 사용
+   char : 2byte
+   char ch1 = 'a';
+   -논리형(boolean) : true, false 값 표현 / 1byte
+python
+- 웹개발 가능하나 우리나라는 관공서,금융 업종에서는 자바를 주로
