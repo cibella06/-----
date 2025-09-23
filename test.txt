@@ -1,0 +1,15 @@
+jdk 설치
+java Development Kit
+thmurin jdk 17 설치: Open jdk
+git = 버전관리 프로그램 : 로컬관리
+github = 저장공간(git으로 관리되는 소스 저장)
+자바소스 == github 공간
+
+1. 로컬저장소 초기화
+git init
+2. gitigonre
+gitignore = 버전관리할 때 무시할 파일 기록
+
+3. 작성되 소스 버전관리 
+(1) 로컬 저장소에 관리할 파일 추가= git add 관리할파일명
+(2) 추가된 파일을 저장하고 확인하기 : git commit -m"메세지"
