@@ -26,6 +26,9 @@ public class swichEx1 {
             System.out.println("월을 확인해 주세요");
         }
 
+        // 조건식을 계산한다. => 조건식과 일치하는 case 문으로 이동 => 문장수행 => break 나 swich 구문의 끝을 만나면 swich
+        // 구문 빠져나감
+        // 조건식 결과는 정수, 문자열만 가능
         switch (month) {
             case 3:
             case 4:
