@@ -1,4 +1,3 @@
-package control;
 
 public class WhileEx1 {
     public static void main(String[] args) {

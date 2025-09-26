@@ -1,4 +1,3 @@
-package control;
 
 import java.net.Socket;
 import java.util.Scanner;
